@@ -1,0 +1,125 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+header{
+    background: -webkit-linear-gradient(to right,
+    rgba(190,190,190,0.75) 0%,
+	 rgba(190,190,190,0.75) 1%,
+	  rgba(216,216,216,0.74) 23%,
+	   rgba(220,220,220,0.73) 49%,
+	    rgba(220,220,220,0.73) 54%,
+	     rgba(216,216,216,0.72) 82%,
+	      rgba(190,190,190,0.71) 99%,
+	       rgba(190,190,190,0.71) 100%);
+	
+	background: -o-linear-gradient(to right,
+	rgba(190,190,190,0.75) 0%,
+	 rgba(190,190,190,0.75) 1%,
+	  rgba(216,216,216,0.74) 23%,
+	   rgba(220,220,220,0.73) 49%,
+	    rgba(220,220,220,0.73) 54%,
+	     rgba(216,216,216,0.72) 82%,
+	      rgba(190,190,190,0.71) 99%,
+	       rgba(190,190,190,0.71) 100%);
+	
+	background: linear-gradient(to right,
+	rgba(190,190,190,0.75) 0%,
+	 rgba(190,190,190,0.75) 1%,
+	  rgba(216,216,216,0.74) 23%,
+	   rgba(220,220,220,0.73) 49%,
+	    rgba(220,220,220,0.73) 54%,
+	     rgba(216,216,216,0.72) 82%,
+	      rgba(190,190,190,0.71) 99%,
+	       rgba(190,190,190,0.71) 100%);
+    padding-bottom: 190px;
+	text-align: justify;
+	letter-spacing: 2px;
+
+
+}.app-navbar{
+	background: rgba(0, 0, 0, .8);
+	height: 100%;
+	border-radius: none;
+	position: absolute;
+}.app-button > a{
+	color: white;
+	transition: all 2s;
+}.app-button > a:hover{
+	background: white;
+	color: black;
+}.app-footer{
+	background: rgba(0, 0, 0, .8)
+}.app-footer-a{
+	color: white;
+	text-decoration-color: none;
+	text-decoration: none;
+	list-style: none;
+}.app-footer-a:hover{
+	color: white;
+	text-decoration-color: none;
+	text-decoration: none;
+	list-style: none;
+}.app-centrar{
+	font-size: 30px;
+	color: white;
+	text-decoration-line: none;
+}.app-centrar:hover{
+	font-size: 30px;
+	color: white;
+	text-decoration-line: none;
+}.app-icon{
+	color: white;
+	background: white;
+}.app-empresa{
+	color: white;
+	text-align: center;
+}.app-icon1{
+	background:  white;
+	align-items: center;
+}.app-buscador1{
+	width: 60%;
+	margin: 0px auto;
+}.app-buscador2{
+	background: rgba(0, 0, 0, .5);
+	padding: 26px 30px 20px 40px;
+	position: relative;
+	margin: 0px 20px
+}.app-centrar-imgP{
+	width: 21%;
+	height: 20%;
+	transition: all 1s;
+	margin-bottom: 50px;
+	position: relative;
+	margin: 0px auto;
+}
+.app-imagen-personal{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+.app-centrar-imgP:hover{
+	width: 22%;
+	height: 21%;
+	border-radius: 95%;
+}
+.app-centrar-nombre{
+	margin: 0px auto;
+	height: 30%;
+	width: 28%;
+	position: relative;
+}
+.app-titulo-nombre{
+	margin-top: 10px;
+	color: black;
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+.app-img-titulo{
+	width: 50px;
+	height: 50px;
+	padding: 9px;
+	position: absolute;
+	margin: 0px 10px 10px 35px;
+}
+
+

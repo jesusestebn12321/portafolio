@@ -1,0 +1,89 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}.app-content-all{
+  width: 210px;
+  margin: auto;
+  perspective: 1000px;
+  position: relative;
+  margin-top: 50px;  transition: all .2s;
+}.app-content-all:hover{
+  width: 220px;
+
+ 
+}.app-content-carrosel{
+  width: 100%;
+  position: absolute;
+  animation: rotar 100s infinite linear;
+  transform-style: preserve-3d;
+}.app-content-carrosel figure{
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+}.app-content-carrosel:hover{
+  animation-play-state: paused;
+
+}
+.app-content-carrosel figure:nth-child(1){transform: rotateY(0deg)translateZ(300px);}
+.app-content-carrosel figure:nth-child(2){transform: rotateY(60deg)translateZ(300px);}
+.app-content-carrosel figure:nth-child(3){transform: rotateY(120deg)translateZ(300px);}
+.app-content-carrosel figure:nth-child(4){transform: rotateY(180deg)translateZ(300px);}
+.app-content-carrosel figure:nth-child(5){transform: rotateY(240deg)translateZ(300px);}
+.app-content-carrosel figure:nth-child(6){transform: rotateY(300deg)translateZ(300px);}
+.app-content-carrosel figure:nth-child(7){transform: rotateY(360deg)translateZ(300px);}
+.app-content-carrosel img{
+  width: 100%;
+}@keyframes rotar{
+	from{
+		transform: rotateY(0deg);
+
+	}to{
+		transform: rotateY(360deg);
+	}
+}
+.app-redes{
+  position: fixed;
+  right: 0;
+  top: 30%;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 100;
+}
+.icon{
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+  font-style: none;
+
+}
+.icon-facebook{
+background: #2E400E;
+}
+.icon-google-plus{
+background: rgb(191,234,64);
+}
+.icon-instagram{
+background: #3F60A5;
+}
+.icon-github{
+background: black;
+}
+.icon:first-child{
+  border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+  border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+  padding-right:3rem;
+  border-radius: 1rem 0 0 1rem;
+  box-shadow: 0 0 .5rem rgba(0,0,0,.42); 
+}
+
+
